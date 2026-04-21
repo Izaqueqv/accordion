@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="accordion">
+      <div class="box">
+        <input type="radio" name="accordion" id="first" />
+        <label for="first"
+          >How can i place an order?
+          <span class="material-symbols-outlined"> arrow_right </span>
+        </label>
+
+        <div class="contentBx">
+          <p>
+            To place an order, simply browse our website, select the desire
+            items, and add them to your shopping cart. Proceed to checkout,
+            provide the necessary information, and complete the payment process.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <input type="radio" name="accordion" id="second" />
+        <label for="second"
+          >How long does shipping take?
+          <span class="material-symbols-outlined"> arrow_right </span>
+        </label>
+
+        <div class="contentBx">
+          <p>
+            Shipping times vary depending on your location, but most orders are
+            delivered within 3–7 business days. Once your order is processed,
+            you’ll receive a confirmation with tracking details so you can
+            follow every step of the delivery.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <input type="radio" name="accordion" id="third" />
+        <label for="third">
+          Can i track my order?
+          <span class="material-symbols-outlined"> arrow_right </span>
+        </label>
+        <div class="contentBx">
+          <p>
+            Yes, you can easily track your order. Once it’s shipped, you’ll
+            receive a tracking number via email, allowing you to monitor your
+            delivery in real time until it arrives at your doorstep.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
