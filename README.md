@@ -6,7 +6,7 @@
 
 ## 🚀 Website
 
-🔗 Acesse: https://izaqueqv.github.io/accordion/
+🔗 Access: https://izaqueqv.github.io/accordion/
 
 ---
 
